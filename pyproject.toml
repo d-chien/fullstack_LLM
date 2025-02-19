@@ -12,6 +12,9 @@ torch = "^2.6.0"
 torchvision = "^0.21.0"
 fastapi = "^0.115.8"
 uvicorn = "^0.34.0"
+sentence-transformers = "^3.4.1"
+openai = "^1.63.2"
+configparser = "^7.1.0"
 
 
 [build-system]
