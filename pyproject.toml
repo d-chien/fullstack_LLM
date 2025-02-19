@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fullstack-llm"
+version = "0.1.0"
+description = ""
+authors = ["Daniel <daniel.famd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.49.0"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
