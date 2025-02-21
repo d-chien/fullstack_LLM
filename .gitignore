@@ -175,3 +175,10 @@ nlp_models/
 
 # config
 config.ini
+
+# pgvector
+data/
+
+# DB migration
+alembic/
+alembic.ini

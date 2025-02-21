@@ -14,7 +14,7 @@ async def predict_sentiment(text: str):
         raise HTTPException(status_code=400, detail='No text provided')
     model_name = "lxyuan/distilbert-base-multilingual-cased-sentiments-student"
 
-    result = get_sentiments_with_pipeline(
+    result = await get_sentiments_with_pipeline(
         model_name='nlp_models/distilbert-base',
         tokenizer_name='nlp_models/distilbert-base',
         string_arr=[text]

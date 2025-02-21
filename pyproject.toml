@@ -15,6 +15,9 @@ uvicorn = "^0.34.0"
 sentence-transformers = "^3.4.1"
 openai = "^1.63.2"
 configparser = "^7.1.0"
+faiss-cpu = "^1.10.0"
+psycopg2-binary = "^2.9.10"
+psycopg2 = "^2.9.10"
 
 
 [build-system]
