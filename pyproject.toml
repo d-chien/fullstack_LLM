@@ -19,6 +19,7 @@ faiss-cpu = "^1.10.0"
 psycopg2-binary = "^2.9.10"
 psycopg2 = "^2.9.10"
 pinecone-client = "^5.0.1"
+pymilvus = "^2.5.4"
 
 
 [build-system]
