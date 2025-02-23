@@ -20,6 +20,10 @@ psycopg2-binary = "^2.9.10"
 psycopg2 = "^2.9.10"
 pinecone-client = "^5.0.1"
 pymilvus = "^2.5.4"
+langchain = "^0.3.19"
+langchain-community = "^0.3.18"
+tiktoken = "^0.9.0"
+langchain-openai = "^0.3.6"
 
 
 [build-system]
